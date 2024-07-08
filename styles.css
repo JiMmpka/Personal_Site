@@ -91,7 +91,7 @@ nav div a {
   content: "a future programer";
   display: flex;
   transform: rotateX(180deg);
-  -webkit-background-clip: text;
+  background-clip: text;
   opacity: 0.2;
 }
 
@@ -100,7 +100,7 @@ nav div a {
   content: "Hello, I'm Paweł";
   display: flex;
   transform: rotateX(180deg);
-  -webkit-background-clip: text;
+  background-clip: text;
   opacity: 0.2;
 }
 
@@ -109,7 +109,7 @@ hr {
   height: 20px;
   width: 70%;
   margin: 0 auto;
-  background: url('./images/blue-line.png') no-repeat center center;
+  background: url("./images/blue-line.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -178,7 +178,7 @@ hr {
 .portfolio-languages {
   display: flex;
   gap: 0.5rem;
-  padding: 1.0rem 1.0rem 0 1.0rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .portfolio-languages p {
@@ -193,12 +193,12 @@ hr {
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
- text-align: left;
-  padding: 1.0rem;
+  text-align: left;
+  padding: 1rem;
 }
 
-.portfolio-content p{
-  padding-bottom: 1rem;;
+.portfolio-content p {
+  padding-bottom: 1rem;
 }
 
 .portfolio-buttons {
