@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baskervville", serif;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(74, 138, 182, 1) 0%,
+    rgba(106, 159, 193, 1) 100%
+  );
+}
+
+.navbar-brand {
+  padding: 30px 30px;
+  font-family: "Caramel", cursive;
+  font-size: 50px;
+  font-weight: 700;
+  color: #1b365c;
+}
+
+.navbar-menu {
+  display: flex;
+  padding-right: 15px;
+  font-weight: 500;
+  gap: 1.5rem;
+  font-size: 1.1rem;
+  flex-wrap: wrap;
+}
+
+nav div a {
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+}
+
+.home {
+  display: flex;
+  background: linear-gradient(
+      180deg,
+      rgba(74, 138, 182, 1) 0%,
+      rgba(106, 159, 193, 0.8) 61%
+    ),
+    url(./images/home-background.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(230, 230, 230);
+  padding-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 18px;
+  padding: 6rem;
+  align-items: center;
+}
+
+.header-primary {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 100;
+  padding-bottom: 3rem;
+}
+
+.header-content {
+  color: #132136;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 35px;
+}
+
+.box1::after {
+  justify-content: center;
+  content: "a future programer";
+  display: flex;
+  transform: rotateX(180deg);
+  -webkit-background-clip: text;
+  opacity: 0.2;
+}
+
+.box2::after {
+  justify-content: center;
+  content: "Hello, I'm Paweł";
+  display: flex;
+  transform: rotateX(180deg);
+  -webkit-background-clip: text;
+  opacity: 0.2;
+}
+
+hr {
+  border: none;
+  height: 20px;
+  width: 70%;
+  margin: 0 auto;
+  background: url('./images/blue-line.png') no-repeat center center;
+  background-size: cover;
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.experience li {
+  line-height: 35px;
+}
+
+.job-name {
+  font-size: 1.6rem;
+  line-height: 24px;
+  margin-bottom: 5px;
+  color: #132136;
+}
+
+.job-date {
+  font-weight: 400;
+  line-height: 15px;
+  color: #1b365c;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.job-list {
+  font-weight: 400;
+  list-style-position: inside;
+  color: #132136;
+  font-size: 1.2rem;
+  line-height: 35px;
+  list-style-type: "- ";
+}
+
+.job-content {
+  font-size: 1.2rem;
+}
+
+.education-item {
+  padding: 1.5rem;
+}
+
+.portfolio-grid {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  background-color: rgb(233, 247, 255);
+  border-radius: 20px;
+}
+
+.portfolio-img {
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.portfolio-languages {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1.0rem 1.0rem 0 1.0rem;
+}
+
+.portfolio-languages p {
+  background-color: #31578b;
+  color: rgb(230, 230, 230);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.portfolio-content {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+ text-align: left;
+  padding: 1.0rem;
+}
+
+.portfolio-content p{
+  padding-bottom: 1rem;;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn {
+  background: #31578b;
+  border-radius: 2rem;
+  color: rgb(230, 230, 230);
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.portfolio-btn {
+  background: #586577;
+  border-radius: 2rem;
+  color: rgb(230, 230, 230);
+  font-size: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(74, 138, 182, 1) 0%,
+    rgba(106, 159, 193, 1) 100%
+  );
+  padding: 1rem;
+}
+
+.footer-link {
+  color: #1b365c;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+@media (max-width: 660px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar-menu {
+    justify-content: center;
+  }
+}
