@@ -52,7 +52,7 @@ nav div a {
     url(./images/home-background.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
-  height: 1000px;
+  height: 830px;
   justify-content: center;
   align-items: center;
   color: rgb(230, 230, 230);
@@ -109,7 +109,7 @@ hr {
   height: 20px;
   width: 70%;
   margin: 0 auto;
-  background: url("./images/blue-line.png") no-repeat center center;
+  background: url('./images/blue-line.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -178,7 +178,7 @@ hr {
 .portfolio-languages {
   display: flex;
   gap: 0.5rem;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1.0rem 1.0rem 0 1.0rem;
 }
 
 .portfolio-languages p {
@@ -193,12 +193,12 @@ hr {
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
-  text-align: left;
-  padding: 1rem;
+ text-align: left;
+  padding: 1.0rem;
 }
 
-.portfolio-content p {
-  padding-bottom: 1rem;
+.portfolio-content p{
+  padding-bottom: 1rem;;
 }
 
 .portfolio-buttons {
@@ -266,5 +266,9 @@ footer {
 
   .navbar-menu {
     justify-content: center;
+  }
+
+  .container {
+    padding: 1.5rem;
   }
 }
